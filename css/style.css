@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: var(--darkest-brown);
 }
 
 .container {
@@ -28,6 +29,7 @@ h1 {
     margin-bottom: 2rem;
     text-align: center;
     font-size: 2.5rem;
+    color: var(--darkest-brown);
 }
 
 input[type="text"]{
@@ -50,6 +52,17 @@ button {
     font-size: 1.2rem;
 }
 
+.complete, .delete {
+    font-size: 0.5rem;
+    padding: 0.3rem, 0.3rem;
+    width: 100px;
+    align-items: right;
+    background-color: var(--light-brown);
+    color: #1d1915;
+    box-shadow: none;
+
+}
+
 button:hover {
     background-color: var(--light-brown);
     color: var(--dark-brown);
@@ -69,6 +82,7 @@ li {
     justify-content: space-between;
     align-items: center;
 }
+
 
 /* when tasks get completed */
 li.completed {
